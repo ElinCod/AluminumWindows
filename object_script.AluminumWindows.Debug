@@ -1,0 +1,16 @@
+debug/adress.o
+debug/finaldimensions.o
+debug/main.o
+debug/mainwindow.o
+debug/numroom.o
+debug/room.o
+debug/windowsize2d.o
+debug/windowsize3d.o
+debug/qrc_img.o
+debug/moc_adress.o
+debug/moc_finaldimensions.o
+debug/moc_mainwindow.o
+debug/moc_numroom.o
+debug/moc_room.o
+debug/moc_windowsize2d.o
+debug/moc_windowsize3d.o

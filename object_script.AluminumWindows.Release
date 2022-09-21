@@ -1,0 +1,16 @@
+release/adress.o
+release/finaldimensions.o
+release/main.o
+release/mainwindow.o
+release/numroom.o
+release/room.o
+release/windowsize2d.o
+release/windowsize3d.o
+release/qrc_img.o
+release/moc_adress.o
+release/moc_finaldimensions.o
+release/moc_mainwindow.o
+release/moc_numroom.o
+release/moc_room.o
+release/moc_windowsize2d.o
+release/moc_windowsize3d.o

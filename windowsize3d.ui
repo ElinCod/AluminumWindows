@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WindowSize3D</class>
+ <widget class="QDialog" name="WindowSize3D">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>465</width>
+    <height>399</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-23</x>
+     <y>50</y>
+     <width>511</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/proj/img/depth.png);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_7">
+   <property name="geometry">
+    <rect>
+     <x>397</x>
+     <y>221</y>
+     <width>21</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/proj/img/plus.svg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="BottomLeftSizeNum">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>345</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="TopRightSizeNum">
+   <property name="geometry">
+    <rect>
+     <x>377</x>
+     <y>84</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>346</y>
+     <width>21</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/proj/img/plus.svg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="RightCenterSizeNum">
+   <property name="geometry">
+    <rect>
+     <x>377</x>
+     <y>220</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="RightCenterSize">
+   <property name="geometry">
+    <rect>
+     <x>347</x>
+     <y>205</y>
+     <width>110</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/proj/img/horizontal_dimension_1.svg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="BottomLeftSize">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>316</y>
+     <width>111</width>
+     <height>74</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/proj/img/arrows-diagonal.svg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>85</y>
+     <width>21</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/proj/img/plus.svg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>397</x>
+     <y>85</y>
+     <width>21</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/proj/img/plus.svg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="LeftCenterSizeNum">
+   <property name="geometry">
+    <rect>
+     <x>27</x>
+     <y>220</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="LeftCenterSize">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>220</y>
+     <width>108</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/proj/img/horizontal_dimension_1.svg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="BottomCenterSizeNum">
+   <property name="geometry">
+    <rect>
+     <x>207</x>
+     <y>345</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="BottomCenterSize">
+   <property name="geometry">
+    <rect>
+     <x>222</x>
+     <y>317</y>
+     <width>31</width>
+     <height>74</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/proj/img/vertical_dimension_2.svg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>227</x>
+     <y>346</y>
+     <width>21</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/proj/img/plus.svg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="TopLeftSizeNum">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>84</y>
+     <width>60</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>47</x>
+     <y>221</y>
+     <width>21</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/proj/img/plus.svg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TopHorSize">
+   <property name="geometry">
+    <rect>
+     <x>235</x>
+     <y>51</y>
+     <width>24</width>
+     <height>86</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/proj/img/vertical_dimension_2.svg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TopRightSize">
+   <property name="geometry">
+    <rect>
+     <x>345</x>
+     <y>44</y>
+     <width>114</width>
+     <height>103</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/proj/img/arrows-diagonal.svg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="TopLeftSize">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>36</y>
+     <width>108</width>
+     <height>117</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/proj/img/arrows-diagonal_1.svg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="BottomRightSize">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>313</y>
+     <width>107</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/proj/img/arrows-diagonal_1.svg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>237</x>
+     <y>85</y>
+     <width>21</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/proj/img/plus.svg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="TopHorSizeNum">
+   <property name="geometry">
+    <rect>
+     <x>217</x>
+     <y>84</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="BottomRightSizeNum">
+   <property name="geometry">
+    <rect>
+     <x>377</x>
+     <y>345</y>
+     <width>61</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_8">
+   <property name="geometry">
+    <rect>
+     <x>397</x>
+     <y>346</y>
+     <width>21</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/proj/img/plus.svg);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>491</width>
+     <height>44</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label_13">
+      <property name="font">
+       <font>
+        <pointsize>-1</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(60,230,150);
+font-size: 14px;</string>
+      </property>
+      <property name="text">
+       <string>Введите соответствующие размеры глубины</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_14">
+      <property name="font">
+       <font>
+        <pointsize>-1</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(60,230,150);
+font-size: 14px;</string>
+      </property>
+      <property name="text">
+       <string>по клику на отмеченных площадках</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>label_14</zorder>
+  <zorder>label_13</zorder>
+  <zorder>BottomLeftSize</zorder>
+  <zorder>LeftCenterSize</zorder>
+  <zorder>BottomCenterSize</zorder>
+  <zorder>LeftCenterSizeNum</zorder>
+  <zorder>pushButton_2</zorder>
+  <zorder>TopHorSize</zorder>
+  <zorder>BottomCenterSizeNum</zorder>
+  <zorder>TopRightSize</zorder>
+  <zorder>TopLeftSize</zorder>
+  <zorder>BottomRightSize</zorder>
+  <zorder>RightCenterSize</zorder>
+  <zorder>RightCenterSizeNum</zorder>
+  <zorder>pushButton_7</zorder>
+  <zorder>pushButton_5</zorder>
+  <zorder>TopHorSizeNum</zorder>
+  <zorder>pushButton_4</zorder>
+  <zorder>TopRightSizeNum</zorder>
+  <zorder>pushButton_6</zorder>
+  <zorder>BottomLeftSizeNum</zorder>
+  <zorder>pushButton_3</zorder>
+  <zorder>BottomRightSizeNum</zorder>
+  <zorder>pushButton_8</zorder>
+  <zorder>TopLeftSizeNum</zorder>
+  <zorder>pushButton</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

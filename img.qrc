@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/proj">
+        <file>img/first_room.png</file>
+        <file>img/title.png</file>
+        <file>img/horizontal_dimension.svg</file>
+        <file>img/vertical_dimension.svg</file>
+        <file>img/vertical_dimension_1.svg</file>
+        <file>img/room_size_2d.png</file>
+        <file>img/plus.svg</file>
+        <file>img/depth.png</file>
+        <file>img/horizontal_dimension_1.svg</file>
+        <file>img/vertical_dimension_2.svg</file>
+        <file>img/depth_min.png</file>
+        <file>img/room_size_2d_min.png</file>
+        <file>img/arrows-diagonal.svg</file>
+        <file>img/arrows-diagonal_1.svg</file>
+    </qresource>
+</RCC>
